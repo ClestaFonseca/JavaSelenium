@@ -37,6 +37,8 @@ public class Dropdowns {
 		System.out.println (driver.findElement(By.className("paxinfo")).getText());
 		driver.findElement(By.id("btnclosepaxoption")).click();
 		
+		System.out.println("Hi!");
+		
 
 	}
 
